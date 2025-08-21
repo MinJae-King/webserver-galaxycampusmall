@@ -1,0 +1,217 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f8f9fb;
+  color: #111;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.logo a,
+.logo a:visited {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: 10px;
+}
+
+.menu-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.menu-list li a:hover {
+  color: #1428a0;
+}
+
+/* 아이콘 주의 */
+.nav-icons {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cart-text {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.user-actions {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.user-actions a,
+.user-actions a:visited {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.user-actions a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.container {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 24px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 4px;
+}
+
+.product-card {
+  display: flex;                       
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  transition: all 0.2s;
+  padding-bottom: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
+
+.product-info {
+  padding: 16px;
+  text-align: left;
+}
+
+.product-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #222;
+}
+
+/* 교육 할인 뱃지 이모티콘 */
+.discount-badge {
+  color: #e00;
+  font-weight: bold;
+}
+
+.feature-list {
+  font-size: 14px;
+  color: #333;
+  padding-left: 18px;
+  line-height: 1.8;
+  list-style-type: disc;
+  margin-top: 12px;
+}
+
+.buy-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;             
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 16px;
+
+  width: fit-content;             
+  align-self: center;             
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.buy-button:hover {
+  background-color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+}
