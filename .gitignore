@@ -1,3 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+
+# 빌드 결과물
+*.class
+*.jar
+*.war
+target/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
